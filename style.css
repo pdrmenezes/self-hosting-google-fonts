@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Unbounded";
+  font-weight: 300;
+  src: url("assets/fonts/Unbounded-Light.woff2") format("woff2"), /* fallbacks after it */ url("assets/fonts/Unbounded-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Unbounded";
+  font-weight: 500;
+  src: url("assets/fonts/Unbounded-Medium.woff2") format("woff2"), url("assets/fonts/Unbounded-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Unbounded";
+  font-weight: 600;
+  src: url("assets/fonts/Unbounded-SemiBold.woff2") format("woff2"), url("assets/fonts/Unbounded-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Unbounded";
+  font-weight: 900;
+  src: url("assets/fonts/Unbounded-Black.woff2") format("woff2"), url("assets/fonts/Unbounded-Black.woff") format("woff");
+}
+
+body {
+  padding: 1rem 2rem;
+  font-family: "Unbounded";
+  background-color: #222;
+  color: #f5f5f5;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
